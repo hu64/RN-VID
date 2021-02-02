@@ -28,4 +28,4 @@ The code for this paper is mainly built upon [keras-retinanet](https://github.co
 
 ## License
 
-RN-VID is released under the MIT License. Portions of the code are borrowed from [keras-retinanet](https://github.com/fizyr/keras-retinanet). Please refer to the original License of these projects.
+RN-VID is released under the MIT License. Portions of the code are borrowed from [keras-retinanet](https://github.com/fizyr/keras-retinanet). Please refer to the original License of this project.
