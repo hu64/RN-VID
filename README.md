@@ -15,8 +15,9 @@ Consecutive frames in a video are highly redundant. Therefore, to perform the ta
 Each frame is passed througha pre-trained VGG-16, and the outputs of block 3, block 4 and block 5 are collected for fusion. B1 to B5 are the standard VGG-16 blocks, and P3 to P7 are the feature pyramid levels. In the dotted frame is an overview of our baseline, a RetinaNet with VGG-16 as a backbone.
 
 <p align="center">
-  <img src="https://github.com/hu64/RN-VID/blob/master/fusion_module.png?raw=true" alt="The Fusion Module"/>
+  <img src="https://github.com/hu64/RN-VID/blob/master/images/fusion_module.png?raw=true" alt="The Fusion Module"/>
 </p>
+
 Our fusion module consists of channel re-ordering, concatenation,1×1 convolution, and a final concatenation.
 
 ## Award
