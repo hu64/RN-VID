@@ -25,10 +25,10 @@ Our fusion module consists of channel re-ordering, concatenation,1×1 convolutio
 For the official references, please refer to the paper. 
 
 <p align="center">
-  <img src="https://github.com/hu64/RN-VID/blob/master/images/results-detrac.png?raw=true" alt="results on ua-detrac"  max-width="600"/>
+  <img src="https://github.com/hu64/RN-VID/blob/master/images/results-detrac.png?raw=true" alt="results on ua-detrac"  width="600"/>
 </p>
 <p align="center" width="300">
-  <img src="https://github.com/hu64/RN-VID/blob/master/images/results-uav.png?raw=true" alt="results on the uavdt dataset"  max-width="600"/>
+  <img src="https://github.com/hu64/RN-VID/blob/master/images/results-uav.png?raw=true" alt="results on the uavdt dataset"  width="600"/>
 </p>
 
 ## Award
