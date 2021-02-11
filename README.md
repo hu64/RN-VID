@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rn-vid-a-feature-fusion-architecture-for/object-detection-on-ua-detrac)](https://paperswithcode.com/sota/object-detection-on-ua-detrac?p=rn-vid-a-feature-fusion-architecture-for) <br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rn-vid-a-feature-fusion-architecture-for/object-detection-on-uavdt)](https://paperswithcode.com/sota/object-detection-on-uavdt?p=rn-vid-a-feature-fusion-architecture-for)  <br>
 # RN-VID
 Repository for the paper RN-VID: A Feature Fusion Architecture for Video Object Detection
 <br> by Hughes Perreault<sup>1</sup>, Pierre Gravel<sup>2</sup>, Maguelonne Héritier<sup>2</sup>, Guillaume-Alexandre Bilodeau<sup>1</sup> and Nicolas Saunier<sup>1</sup>.
