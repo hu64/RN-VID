@@ -12,12 +12,12 @@ Paper: https://arxiv.org/abs/2003.10898
 Consecutive frames in a video are highly redundant. Therefore, to perform the task of video object detection, executing single frame detectors on every frame without reusing any information is quite wasteful. It is with this idea in mind that we propose RN-VID (standing for RetinaNet-VIDeo), a novel approach to video object detection. Our contributions are twofold. First, we propose a new architecture that allows the usage of information from nearby frames to enhance feature maps. Second, we propose a novel module to merge feature maps of same dimensions using re-ordering of channels and 1 x 1 convolutions. We then demonstrate that RN-VID achieves better mean average precision (mAP) than corresponding single frame detectors with little additional cost during inference.
 
 ## Model
-![Architecture](images/architecture.jpg "")
+![Architecture](imgs/architecture.jpg "")
 
 Each frame is passed through a pre-trained VGG-16, and the outputs of block 3, block 4 and block 5 are collected for fusion. B1 to B5 are the standard VGG-16 blocks, and P3 to P7 are the feature pyramid levels. In the dotted frame is an overview of our baseline, a RetinaNet with VGG-16 as a backbone.
 
 <p align="center">
-  <img src="https://github.com/hu64/RN-VID/blob/master/images/fusion_module.jpg?raw=true" alt="The Fusion Module"/>
+  <img src="https://github.com/hu64/RN-VID/blob/master/imgs/fusion_module.jpg?raw=true" alt="The Fusion Module"/>
 </p>
 
 Our fusion module consists of channel re-ordering, concatenation,1×1 convolution, and a final concatenation.
@@ -27,14 +27,14 @@ Our fusion module consists of channel re-ordering, concatenation,1×1 convolutio
 For the official references, please refer to the paper.
 
 <p align="center">
-  <img src="https://github.com/hu64/RN-VID/blob/master/images/results-detrac.png?raw=true" alt="results on ua-detrac"  width="600"/>
+  <img src="https://github.com/hu64/RN-VID/blob/master/imgs/results-detrac.png?raw=true" alt="results on ua-detrac"  width="600"/>
 </p>
 <p align="center" width="300">
-  <img src="https://github.com/hu64/RN-VID/blob/master/images/results-uav.png?raw=true" alt="results on the uavdt dataset"  width="600"/>
+  <img src="https://github.com/hu64/RN-VID/blob/master/imgs/results-uav.png?raw=true" alt="results on the uavdt dataset"  width="600"/>
 </p>
 
 ## Award
-![Award](images/iciar_award.png "")
+![Award](imgs/iciar_award.png "")
 
 This paper was awarded the best paper award at the ICIAR 2020 conference.
 
