@@ -26,12 +26,30 @@ Our fusion module consists of channel re-ordering, concatenation,1×1 convolutio
 
 For the official references, please refer to the paper.
 
-<p align="center">
-  <img src="https://github.com/hu64/RN-VID/blob/master/imgs/results-detrac.png?raw=true" alt="results on ua-detrac"  width="600"/>
-</p>
-<p align="center" width="300">
-  <img src="https://github.com/hu64/RN-VID/blob/master/imgs/results-uav.png?raw=true" alt="results on the uavdt dataset"  width="600"/>
-</p>
+### Results on UA_DETRAC
+
+| Model                                | Overall          | Easy             | Medium           | Hard             | Cloudy           | Night            | Rainy            | Sunny            |
+|--------------------------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+| RN-VID (Ours)                        | 70.57%           | 87.50%           | 75.53%           | 58.04%           | 80.69%           | 69.56%           | 56.15%           | 83.60%           |
+| R-FCN                                | 69.87%           | 93.32%           | 75.67%           | 54.31%           | 74.38%           | 75.09%           | 56.21%           | 84.08%           |
+| RN-VGG16                             | 69.14%           | 86.82%           | 73.70%           | 56.74%           | 79.88%           | 66.57%           | 55.21%           | 82.09%           |
+| EB                                   | 67.96%           | 89.65%           | 73.12%           | 53.64%           | 72.42%           | 73.93%           | 53.40%           | 83.73%           |
+| Faster R-CNN                         | 58.45%           | 82.75%           | 63.05%           | 44.25%           | 66.29%           | 69.85%           | 45.16%           | 62.34%           |
+| YOLOv2                               | 57.72%           | 83.28%           | 62.25%           | 42.44%           | 57.97%           | 64.53%           | 47.84%           | 69.75%           |
+| RN-D                                 | 54.69%           | 80.98%           | 59.13%           | 39.23%           | 59.88%           | 54.62%           | 41.11%           | 77.53%           |
+| 3D-DETnet                            | 53.30%           | 66.66%           | 59.26%           | 43.22%           | 63.30%           | 52.90%           | 44.27%           | 71.26%           |
+
+### Results on UAVDT
+
+| Model                            | Overall          |
+|----------------------------------|------------------|
+| RN-VID (Ours)                    | 39.43%           |
+| RN-VGG16                         | 38.26%           |
+| R-FCN                            | 34.35%           |
+| SSD                              | 33.62%           |
+| Faster-RCNN                      | 22.32%           |
+| RON                              | 21.59%           |
+
 
 ## Award
 ![Award](imgs/iciar_award.png "")
