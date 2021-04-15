@@ -26,7 +26,7 @@ Our fusion module consists of channel re-ordering, concatenation,1×1 convolutio
 
 For the official references, please refer to the paper.
 
-### Results on UA_DETRAC
+### Results on UA-DETRAC
 
 | Model                                | Overall          | Easy             | Medium           | Hard             | Cloudy           | Night            | Rainy            | Sunny            |
 |--------------------------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
