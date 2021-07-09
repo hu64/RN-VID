@@ -6,7 +6,7 @@ Repository for the paper RN-VID: A Feature Fusion Architecture for Video Object 
 <br>
 <sup>1</sup> Polytechnique Montréal
 <sup>2</sup> Genetec <br>
-Paper: https://arxiv.org/abs/2003.10898
+Paper: https://arxiv.org/abs/2003.10898  <br>
 This repo also covers the technical report: https://arxiv.org/abs/1903.12049
 
 ## Abstract
