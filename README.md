@@ -7,6 +7,7 @@ Repository for the paper RN-VID: A Feature Fusion Architecture for Video Object 
 <sup>1</sup> Polytechnique Montréal
 <sup>2</sup> Genetec <br>
 Paper: https://arxiv.org/abs/2003.10898
+This repo also covers the technical report: https://arxiv.org/abs/1903.12049
 
 ## Abstract
 Consecutive frames in a video are highly redundant. Therefore, to perform the task of video object detection, executing single frame detectors on every frame without reusing any information is quite wasteful. It is with this idea in mind that we propose RN-VID (standing for RetinaNet-VIDeo), a novel approach to video object detection. Our contributions are twofold. First, we propose a new architecture that allows the usage of information from nearby frames to enhance feature maps. Second, we propose a novel module to merge feature maps of same dimensions using re-ordering of channels and 1 x 1 convolutions. We then demonstrate that RN-VID achieves better mean average precision (mAP) than corresponding single frame detectors with little additional cost during inference.
